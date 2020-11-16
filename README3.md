@@ -20,6 +20,10 @@ Read data from a file
 3. Access file using path passing in directory and filename
 4. Import list and load file into a list
 5. Import exception
+
+Scanner
+=========
+The scanner class is used to get user input and is found in the java.util package. You can use any of the available methods.
    
 Getting data from console input to application
 ==============================================
