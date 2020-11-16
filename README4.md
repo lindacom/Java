@@ -11,6 +11,35 @@ To create a server side java app:
 5. Specify tomcat installation directory and click next. You will se project on the riht
 6. Click finish. Server rill have started in bottom of scree and app will be displayed at the top
 
+Build JSF web applications with Java EE
+=========================================
+JSF (java server faces) is a framework for building dynaic web applications. It uses MVC. To create an a JSF application:
+
+Set up the environment
+---------------------
+download eclipse for java ee developers (java enterprise) from eclipse.org. extract files from zip  folder to desktop
+
+Server
+------
+1. download lassfish server from oracle website. This is a server
+2. download java jre from java.com. this is a developmet platform
+3. download java JDK
+
+java ee.
+
+Create a project
+------------------
+1. To start a project go to new project icon and select other. Expand web folder and select dynamic web project. give the project a name and click next
+2. Select a server runtime enviornment e.g. oracle and click next 
+3. Select create web.xml deployment descriptor file and click next
+4. Yu will now see the folder structure. N.b. web content dolfer is where templates will be created. Select an htl templte and click finish
+5. Create a file N.b. file should have extesion xhtl
+6. go to window > web browser > defauls tystem browser then click run button. You will ee your page i the screen. Close the screen
+7. Create a class - in the java resources > src folder create a class. Give it a name and select constructors for superclasses. Click inish.
+
+Java resources folder is where java files will be created
+8. Create a web container - web container is a server that communicates with web server and JSF application Click ervers tab at bottom of screen and click link to create server. Expand oracle folder.
+
 Android development
 --------------------
 Install android studio (based on intelly IDEA). Download from developer.android.com/studio
