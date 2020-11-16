@@ -97,3 +97,20 @@ Use index to retrieve items entering name dot get method passin in index value.
 
 All methods can be found at http://docs.oracle.com/javase/7/docs/api/java/util/ArrayList
 
+Inheritance
+---------------
+Inheritance build on existing classes and use their functionalty. Create new classes built on existing classes. The new class will have access to inherit
+its pareents methods and fields. The new class can expandd its functionalty.  To create an inheritance use the keyword extends e.g. 
+
+public class sportsCar extends car {}
+
+use the super plus dot to call the parent's method.
+
+Interface
+----------
+Interface give classes and objcs functionlaity that doesnt com from the parent. n interface is a set of skills that exist outside the class.  A class implements an interface using the implements keyword e.g
+
+public class Emporor implements Human {}
+
+A common interface is a listener
+
