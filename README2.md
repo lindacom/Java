@@ -73,6 +73,14 @@ cheking equality
 making a comparison
 check if a condition is true.
 
+Dates
+-----
+Java does not have built in date class but you can iport java.time package to work with the date and time api.
+
+Threads
+-------
+A thread allows a program to do multiple things at the same tie without interrrpting the ain program.
+
 Collections - arrays and array lists
 --------------------------------------
 Array:
