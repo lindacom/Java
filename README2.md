@@ -54,6 +54,16 @@ hidden - unvavailable to external classes. It is possible to access them if you 
 
 Nb. by default methods are public.
 
+enum
+-----
+an enum is a special class that represents a group of constants. To create an enum use th eum keyword. Constants within the enum should be upercase and seperated by comma.
+
+Enum can be accesed using the dot syntax. They can be accessed in a class, in a witch statement.
+
+Enum can also be created inside a class
+
+Nb. an enum cannot be used to create objects and it cannot extend other classes but it can implement interfaces.
+
 Logic
 ------
 Logic conrols which instructions are executed. Conditional statements if els, for loops etc.
